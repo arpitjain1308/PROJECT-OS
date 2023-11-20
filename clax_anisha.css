@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#Arish {
+    display: inline;
+    padding-right: 10px;
+    border-radius: 50px;
+    font-size: x-large;
+    padding-left: 10px;
+}
+img {
+    display: inline;
+    height: 26px;
+    width: 34px;
+    padding-right: 6px;
+    align-self: center;
+}
+nav{
+    position: fixed;
+    padding: 15px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(89,254,136,1) 0%, rgba(66,234,46,1) 0%, rgba(59,240,176,1) 0%, rgba(9,246,4,1) 32%, rgba(0,212,255,1) 100%);
+    color: black;
+    width: 100vw;
+}
+a {
+    display: inline-flex;
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(72, 74, 72);
+}
+#navend {
+    display: inline-flex;
+    padding-left: 880px;
+}
+a:hover {
+    color: rgb(252, 249, 66);
+}
+.greetings {
+    padding: 15px;
+}
+div.newcomplaintbox {
+    display: inline;
+    border: 1.5px solid black;
+    border-radius: 20px;
+    padding: 15px;
+    margin: 5px;
+    margin-right: 15px;
+}
+div.newcomplaintbox:hover {
+    background-color: greenyellow;
+    color: black;
+    transform: scale(1.1);
+}
+img.banner {
+    padding-top: 50px;
+    height: 800px;
+    width: 99vw;
+}
+img.bannerabout {
+    padding-top: 50px;
+    height: 500px;
+    width: 99vw;
+}
+footer {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(89,254,136,1) 0%, rgba(66,234,46,1) 0%, rgba(59,240,176,1) 0%, rgba(9,246,4,1) 32%, rgba(0,212,255,1) 100%);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content:  center;
+    padding: 10px;
+    font-weight: 700;
+    padding-top: 18px;
+    padding-left: 6vw;
+    font-size: 17px;
+}
+
+h2#newcomplainthead {
+    padding-top: 20px;
+    text-align: center;
+}
+img.bannernewcomplaint {
+    height: 270px;
+    width: 1278px;
+}
+div.form {
+    border: 1.5px solid black;
+    border-radius: 10px;
+    margin: 50px 200px 50px 200px;
+    padding: 70px;
+}
+label {
+    padding-right: 20px;
+}
+#tree {
+    display: inline;
+    height: 10px;
+    width: 10px;
+}
+#resetbutton {
+    margin-right: 10px;
+}
+h1.mainhead {
+    text-align: center;
+    font-weight: 1000;
+    padding-top: 20px;
+    font-size: 50px;
+}
+div.intro {
+    padding: 100px;
+    padding-bottom: 50px;
+}
+div.intropart1 {
+    width: 50%;
+    height: 20%;
+    float: left;
+    text-align: center;
+    font-size: larger;
+    font-weight: 1000;
+    font-size: 45px;
+    padding-bottom: 50px;
+    padding-top: 30px;
+    padding-right: 70px;
+}
+div.intropart2 {
+    width: 50%;
+    height: 20%;
+    float: right;
+    padding-bottom: 50px;
+    font-size: 18px;
+}
+div.fact1 {
+    padding: 100px;
+    padding-bottom: 50px;
+}
+div.intropart11 {
+    width: 50%;
+    height: 20%;
+    float: right;
+    text-align: center;
+    font-size: larger;
+    font-weight: 1000;
+    font-size: 45px;
+    padding-bottom: 50px;
+    padding-top: 150px;
+}
+div.intropart21 {
+    width: 50%;
+    height: 20%;
+    float: left;
+    padding-bottom: 50px;
+    padding-top: 100px;
+}
+#fact1img {
+    width: 80%;
+    height: 90%;
+}
+div.intro2 {
+    padding-top: 700px;
+    padding-bottom: 100px;
+    padding-left: 100px;
+}
+div.intropart12 {
+    width: 50%;
+    height: 20%;
+    float: left;
+    text-align: center;
+    font-size: larger;
+    font-weight: 1000;
+    font-size: 45px;
+    padding-bottom: 50px;
+    padding-top: 90px;
+    padding-right: 70px;
+}
+div.intropart22 {
+    width: 50%;
+    height: 20%;
+    float: right;
+    padding-bottom: 50px;
+    font-size: 18px;
+    padding-right: 100px;
+}
+a.feedback {
+    padding-top: 50px;
+}
+p {
+    text-align: center;
+}
+p.h1about {
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 900;
+    font-size: 40px;
+    text-decoration: underline;
+}
+p.aboutinfo {
+    padding-top: 20px;
+}
+p.h2about {
+    text-align: center;
+    padding-top: 30px;
+    font-weight: 900;
+    font-size: 30px;
+    padding-bottom: 40px;
+    text-decoration: underline;
+}
+p#leader {
+    font-weight: 600;
+    font-size: 25px;
+}
+p.teammem {
+    padding: 20px;
+    font-size: 20px;
+}
+p.teammem:hover {
+    background-color: aquamarine;
+}
+p#leader:hover {
+    background-color: aqua;
+    scale: 1.1;
+}
