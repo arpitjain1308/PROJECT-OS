@@ -74,7 +74,7 @@ footer {
     justify-content:  center;
     padding: 10px;
     font-weight: 700;
-    padding-top: 18px;
+    margin-top: 20px;
     padding-left: 6vw;
     font-size: 17px;
 }
@@ -222,4 +222,57 @@ p.teammem:hover {
 p#leader:hover {
     background-color: aqua;
     scale: 1.1;
+}
+
+
+/*schemes */
+
+
+h1.govscheme {
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 40px;
+    font-size: 50px;
+
+}
+
+div.parent {
+    display: flex;
+    justify-content: center;
+}
+div.central {
+    border: 1px solid gray;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 40px;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+div.central:hover {
+    background-color: greenyellow;
+    color: black;
+    box-shadow: 3px 3px 10px black;
+}
+div.stateparent {
+    display: flex;
+    height: 100px;
+    width: 100%;
+    gap: 75px;
+    padding: 10px;
+    margin-top: 40px;
+}
+div.states {
+    display: flex;
+    border: 1px solid gray;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 28px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+div.states:hover {
+    background-color: greenyellow;
+    color: black;
+    box-shadow: 3px 3px 10px black;
 }
