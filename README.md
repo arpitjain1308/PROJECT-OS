@@ -1,62 +1,74 @@
-Next-Gen OS Authentication: Face Recognition Login
-Overview
-This project implements a Next-Gen OS Authentication Model using Face Recognition for secure and seamless login on Linux systems. The system replaces traditional password-based authentication with biometric authentication, enhancing security and user convenience.
+# NextGen OS - Face Authentication System
 
-Features
-Face Recognition Login: Uses a pre-trained face recognition model to authenticate users.
+## Overview
+ProjectOS is a **next-gen authentication system** that enables **face recognition-based authentication** for operating systems. It enhances security and convenience by allowing users to log in using their facial biometrics instead of traditional passwords.
 
-Seamless Integration: Works at the OS level to enable automatic login without a password.
+## Features
+- **Add New Face**: Register a new face for authentication.
+- **Match Face**: Authenticate users by matching their face.
+- **List Registered Faces**: Display all stored face encodings.
+- **Remove Face**: Delete a registered face from the system.
+- **Disable Face Recognition**: Temporarily disable face authentication.
+- **Configuration**: Manage system settings and preferences.
+- **CLI Support**: Command-line interface for easy usage.
 
-Secure and Fast: Provides a reliable and efficient authentication system.
+## Files and Their Functions
+- `add_new_face.py` - Script to add a new user face for authentication.
+- `match_face.py` - Matches the detected face with stored face encodings.
+- `list_of_faces.py` - Lists all stored face encodings.
+- `remove_face.py` - Deletes a registered face from the system.
+- `disable_facerecognition.py` - Temporarily disables face authentication.
+- `configuration.py` - Manages system configuration settings.
+- `cli.py` - Command-line interface for interacting with the system.
+- `test_face.py` - Test script to verify face authentication functionality.
 
-Customizable: Can be trained with multiple images for improved accuracy.
+## Installation
+```bash
+# Clone the repository
+git clone https://github.com/your-repo/ProjectOS.git
+cd ProjectOS
 
-Installation
-Step 1: Install Dependencies
-Ensure your system has the required dependencies installed:
+# Install dependencies
+pip install -r requirements.txt
 
-bash
-Copy
-Edit
-sudo apt update && sudo apt upgrade -y
-sudo apt install python3 python3-pip libopencv-dev build-essential cmake g++ libssl-dev
-Step 2: Install Face Recognition and Required Libraries
-bash
-Copy
-Edit
-pip install opencv-python dlib face_recognition numpy
-Step 3: Clone the Project
-bash
-Copy
-Edit
-git clone https://github.com/your-repo/face-authentication.git
-cd face-authentication
-Step 4: Register Your Face
-Run the face registration script to store your facial data:
+# Run face registration
+python add_new_face.py
+```
 
-bash
-Copy
-Edit
-python face_register.py
-Step 5: Enable Face Recognition Login
-Run the face login script to authenticate users via facial recognition:
+## Usage
+### Add a new face
+```bash
+python add_new_face.py
+```
+### Authenticate a user
+```bash
+python match_face.py
+```
+### List all registered faces
+```bash
+python list_of_faces.py
+```
+### Remove a face
+```bash
+python remove_face.py
+```
+### Disable face recognition
+```bash
+python disable_facerecognition.py
+```
 
-bash
-Copy
-Edit
-python face_login.py
-Usage
-The system captures your face using the webcam.
+## Dependencies
+- OpenCV
+- Dlib
+- Face Recognition
+- NumPy
+- Python 3.x
 
-It compares the detected face with the stored facial data.
+## Future Scope
+- **Voice Authentication** Integration
+- **Multi-User Face Recognition**
+- **AI-Based Spoof Detection** to prevent face spoofing
 
-If the face matches, the system logs in automatically.
+## Contributing
+Feel free to submit issues and pull requests to improve the system.
 
-If authentication fails, the system falls back to password login.
-
-Future Enhancements
-Adding voice recognition as an additional authentication method.
-
-Implementing multi-user face authentication.
-
-Improving accuracy with deep learning models.
